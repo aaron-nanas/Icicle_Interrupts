@@ -1,0 +1,589 @@
+# Mon Feb 24 14:17:03 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: D:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: AARON
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 206MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 206MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 206MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 206MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 293MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 293MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 294MB)
+
+
+Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 294MB)
+
+
+Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 294MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 277MB peak: 294MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Mapping Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 277MB peak: 294MB)
+
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_x_ctrl.v":125:32:125:45|Tristate driver fifoFullQueueX (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_interrupt_x_ctrl_1s_0s_27s_0s_0_1(verilog)) on net fifoFullQueueX (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_interrupt_x_ctrl_1s_0s_27s_0s_0_1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":125:32:125:35|Tristate driver int3 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int3 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":124:32:124:35|Tristate driver int2 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int2 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":123:32:123:35|Tristate driver int1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":119:32:119:45|Tristate driver waitStrDscrptr (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net waitStrDscrptr (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":308:36:308:41|Tristate driver TREADY (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) on net TREADY (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) has its enable tied to GND.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":658:8:658:11|ROM ctrlRdValid_d[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":658:8:658:11|Found ROM ctrlRdValid_d[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) with 22 words by 3 bits.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":208:23:239:25|ROM un402_ctrlAddrDec[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":208:23:239:25|Found ROM un402_ctrlAddrDec[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) with 62 words by 2 bits.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1975:8:1975:11|ROM AXI4RdTransDone_1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1975:8:1975:11|Found ROM AXI4RdTransDone_1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog)) with 9 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 280MB peak: 294MB)
+
+Encoding state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":341:1:341:6|There are no possible illegal states for state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currStateAWr[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":429:1:429:6|There are no possible illegal states for state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currStateAWr[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4LiteTARGETCtrl(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":355:0:355:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ARREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":476:0:476:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.RVALIDReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":444:0:444:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.BVALIDReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":427:0:427:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.WREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":339:0:339:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.AWREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currRdState[21:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000001
+   0000000000000000000010 -> 0000000000000000000010
+   0000000000000000000100 -> 0000000000000000000100
+   0000000000000000001000 -> 0000000000000000001000
+   0000000000000000010000 -> 0000000000000000010000
+   0000000000000000100000 -> 0000000000000000100000
+   0000000000000001000000 -> 0000000000000001000000
+   0000000000000010000000 -> 0000000000000010000000
+   0000000000000100000000 -> 0000000000000100000000
+   0000000000001000000000 -> 0000000000001000000000
+   0000000000010000000000 -> 0000000000010000000000
+   0000000000100000000000 -> 0000000000100000000000
+   0000000001000000000000 -> 0000000001000000000000
+   0000000010000000000000 -> 0000000010000000000000
+   0000000100000000000000 -> 0000000100000000000000
+   0000001000000000000000 -> 0000001000000000000000
+   0000010000000000000000 -> 0000010000000000000000
+   0000100000000000000000 -> 0000100000000000000000
+   0001000000000000000000 -> 0001000000000000000000
+   0010000000000000000000 -> 0010000000000000000000
+   0100000000000000000000 -> 0100000000000000000000
+   1000000000000000000000 -> 1000000000000000000000
+Encoding state machine currWrState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":453:0:453:5|There are no possible illegal states for state machine currWrState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":318:0:318:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_bufferDescriptors.rmrReq because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_bufferDescriptors.currWrState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine DMAStartCtrl_inst.DMAStartCtrlRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine DMAStartCtrl_inst.DMAStartCtrlRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)); safe FSM implementation is not required.
+Encoding state machine dscrptrSrcMux_inst.dscrptrSrcMuxRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine dscrptrSrcMux_inst.dscrptrSrcMuxRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)); safe FSM implementation is not required.
+Encoding state machine dscrptrSrcMux_inst.currState[4:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine DMAArbiter_inst.currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   000 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine intStatusMux_inst.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_status_mux.v":97:0:97:5|There are no possible illegal states for state machine intStatusMux_inst.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)); safe FSM implementation is not required.
+Encoding state machine DMATranCtrl.intErrorCtrl_inst.currState[13:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine DMATranCtrl.rdTranCtrl_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine DMATranCtrl.transAck_inst.currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine DMATranCtrl.wrTranCtrl_inst.currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine currStateWr[10:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+original code -> new code
+   0000000000001 -> 00000000001
+   0000000000010 -> 00000000010
+   0000000000100 -> 00000000100
+   0000000001000 -> 00000001000
+   0000000010000 -> 00000010000
+   0000000100000 -> 00000100000
+   0000001000000 -> 00001000000
+   0000010000000 -> 00010000000
+   0000100000000 -> 00100000000
+   0001000000000 -> 01000000000
+   0010000000000 -> 10000000000
+Encoding state machine currStateRd[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+original code -> new code
+   0000000000001 -> 000000001
+   0000000000010 -> 000000010
+   0000000000100 -> 000000100
+   0000000001000 -> 000001000
+   0000000010000 -> 000010000
+   0000000100000 -> 000100000
+   0000001000000 -> 001000000
+   0000010000000 -> 010000000
+   0000100000000 -> 100000000
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":863:4:863:9|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance rdAddr_1[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":836:10:836:15|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance ram_rdreq_cntr[8:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":668:3:668:8|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance rdbeat_cnt[8:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2628:0:2628:5|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance wrAddrReg[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1848:0:1848:5|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance beatCntReg[8:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') nextStateWr38 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') ren_sc8 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1314:40:1314:73|Found 24 by 24 bit equality operator ('==') rdAddrReg_d19 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1173:32:1173:60|Found 9 by 9 bit equality operator ('==') WLASTReg_d5 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2501:0:2501:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInRdBurst[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInRdBurst[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2596:0:2596:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ARLENReg[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ARLENReg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1540:0:1540:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1668:0:1668:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 294MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 293MB peak: 294MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":605:2:605:7|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ren_sc_d1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_memoryMapDMACache.rdEn_f1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_cache.v":126:0:126:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_memoryMapDMACache.rdEn_f2 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ren_sc_d2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 286MB peak: 294MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 288MB peak: 294MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 290MB peak: 294MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 290MB peak: 294MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 291MB peak: 294MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 333MB peak: 333MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:12s		    -0.96ns		2572 /      1490
+   2		0h:00m:12s		    -0.96ns		2531 /      1490
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2704:0:2704:5|Replicating instance U_AXI4INITIATORDMACtrl.wrEnReg (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1026:48:1026:71|Replicating instance U_AXI4INITIATORDMACtrl.AWBURSTReg_d5 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) with 12 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   3		0h:00m:13s		    -0.36ns		2541 /      1491
+
+
+   4		0h:00m:13s		    -0.32ns		2541 /      1491
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 336MB peak: 336MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 336MB peak: 336MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Feb 24 14:17:18 2025
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.336
+
+                                                                                Requested     Estimated     Requested     Estimated               Clock                              Clock           
+Starting Clock                                                                  Frequency     Frequency     Period        Period        Slack     Type                               Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              125.0 MHz     150.1 MHz     8.000         6.664         1.336     generated (from REF_CLK_50MHz)     FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      NA            20.000        NA            NA        generated (from REF_CLK_50MHz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV           85.2 MHz      NA            11.737        NA            NA        generated (from osc_rc160mhz)      default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK     125.0 MHz     NA            8.000         NA            NA        declared                           default_clkgroup
+REF_CLK_50MHz                                                                   50.0 MHz      NA            20.000        NA            NA        declared                           default_clkgroup
+REF_CLK_PAD_P                                                                   100.0 MHz     NA            10.000        NA            NA        declared                           default_clkgroup
+osc_rc160mhz                                                                    170.4 MHz     NA            5.869         NA            NA        declared                           default_clkgroup
+=====================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  8.000       1.336  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                             Starting                                                                                                    Arrival          
+Instance                                                                                                                     Reference                                                              Type     Pin     Net                 Time        Slack
+                                                                                                                             Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0]                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       wrByteCnt[0]        0.257       1.336
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.dstNumOfBytesInRdReg[0]                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       un1_wrByteCnt_0     0.257       1.388
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[286]           0.257       1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlAddrReg[8]                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ctrlAddr[8]         0.257       1.627
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[287]           0.257       1.635
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[288]           0.257       1.687
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlAddrReg[9]                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ctrlAddr[9]         0.257       1.721
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlAddrReg[10]                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ctrlAddr[10]        0.257       1.741
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[289]           0.237       1.755
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlAddrReg[7]                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ctrlAddr[7]         0.257       1.806
+==========================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                       Starting                                                                                                                                              Required          
+Instance                                                                                                                               Reference                                                              Type     Pin     Net                                                           Time         Slack
+                                                                                                                                       Clock                                                                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[4]                                                 8.000        1.336
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[4]                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       beatsInWrBurst_d[4]                                           8.000        1.531
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[0]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[1]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[2]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[3]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlWrDataReg[0]                                       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      un1_ctrlWrStrbsReg_d_0_sqmuxa_6_0_o3                          7.850        1.627
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlWrDataReg[1]                                       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      un1_ctrlWrStrbsReg_d_0_sqmuxa_6_0_o3                          7.850        1.627
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlWrDataReg[2]                                       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      un1_ctrlWrStrbsReg_d_0_sqmuxa_6_0_o3                          7.850        1.627
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ctrlWrDataReg[3]                                       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      un1_ctrlWrStrbsReg_d_0_sqmuxa_6_0_o3                          7.850        1.627
+===============================================================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      6.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.336
+
+    Number of logic level(s):                32
+    Starting point:                          FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0]                                    SLE      Q        Out     0.257     0.257 r     -         
+wrByteCnt[0]                                                                                                                      Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_cry_0                ARI1     C        In      -         0.959 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_cry_0                ARI1     Y        Out     0.362     1.321 r     -         
+un1_dstNumOfBytesInRdReg_d_cry_0_Y                                                                                                Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_0                ARI1     C        In      -         1.966 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_0                ARI1     FCO      Out     0.464     2.430 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_0                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_1                ARI1     FCI      In      -         2.430 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_1                ARI1     FCO      Out     0.009     2.440 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_1                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_2                ARI1     FCI      In      -         2.440 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_2                ARI1     FCO      Out     0.009     2.449 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_2                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_3                ARI1     FCI      In      -         2.449 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_3                ARI1     FCO      Out     0.009     2.458 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_3                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_4                ARI1     FCI      In      -         2.458 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_4                ARI1     FCO      Out     0.009     2.468 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_4                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_5                ARI1     FCI      In      -         2.468 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_5                ARI1     FCO      Out     0.009     2.477 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_5                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_6                ARI1     FCI      In      -         2.477 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_6                ARI1     FCO      Out     0.009     2.487 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_6                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_7                ARI1     FCI      In      -         2.487 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_7                ARI1     FCO      Out     0.009     2.496 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_7                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_8                ARI1     FCI      In      -         2.496 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_8                ARI1     FCO      Out     0.009     2.505 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_8                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_9                ARI1     FCI      In      -         2.505 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_9                ARI1     FCO      Out     0.009     2.515 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_9                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_10               ARI1     FCI      In      -         2.515 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_10               ARI1     FCO      Out     0.009     2.524 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_10                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_11               ARI1     FCI      In      -         2.524 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_11               ARI1     FCO      Out     0.009     2.534 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_11                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_12               ARI1     FCI      In      -         2.534 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_12               ARI1     FCO      Out     0.009     2.543 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_12                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_13               ARI1     FCI      In      -         2.543 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_13               ARI1     FCO      Out     0.009     2.552 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_13                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_14               ARI1     FCI      In      -         2.552 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_14               ARI1     FCO      Out     0.009     2.562 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_14                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_15               ARI1     FCI      In      -         2.562 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_15               ARI1     FCO      Out     0.009     2.571 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_15                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_16               ARI1     FCI      In      -         2.571 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_16               ARI1     FCO      Out     0.009     2.581 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_16                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_17               ARI1     FCI      In      -         2.581 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_17               ARI1     FCO      Out     0.009     2.590 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_17                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_18               ARI1     FCI      In      -         2.590 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_18               ARI1     FCO      Out     0.009     2.599 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_18                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_19               ARI1     FCI      In      -         2.599 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_19               ARI1     FCO      Out     0.009     2.609 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_19                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_20               ARI1     FCI      In      -         2.609 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_20               ARI1     FCO      Out     0.009     2.618 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_20                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_21               ARI1     FCI      In      -         2.618 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_21               ARI1     FCO      Out     0.009     2.628 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_21                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_22               ARI1     FCI      In      -         2.628 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_22               ARI1     FCO      Out     0.009     2.637 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_22                                                                                                 Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_s_23                 ARI1     FCI      In      -         2.637 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_s_23                 ARI1     S        Out     0.354     2.991 f     -         
+N_1999_i                                                                                                                          Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_1lto23_12_i_a2_0     CFG3     C        In      -         3.636 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_1lto23_12_i_a2_0     CFG3     Y        Out     0.154     3.790 r     -         
+N_2202                                                                                                                            Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_19_i_a2_0            CFG4     B        In      -         4.455 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_19_i_a2_0            CFG4     Y        Out     0.098     4.553 r     -         
+N_2209                                                                                                                            Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16_i_a2              CFG3     C        In      -         5.198 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16_i_a2              CFG3     Y        Out     0.175     5.373 r     -         
+N_2200                                                                                                                            Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9_RNO[4]                       CFG4     D        In      -         5.512 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9_RNO[4]                       CFG4     Y        Out     0.250     5.762 f     -         
+N_2162_i                                                                                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9[4]                           CFG3     A        In      -         5.901 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9[4]                           CFG3     Y        Out     0.056     5.957 f     -         
+beatsInWrBurst_d_9[4]                                                                                                             Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_d_2[4]                               CFG3     A        In      -         6.104 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_d_2[4]                               CFG3     Y        Out     0.056     6.160 f     -         
+N_919_2                                                                                                                           Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d[4]                                   CFG4     D        In      -         6.299 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d[4]                                   CFG4     Y        Out     0.226     6.525 f     -         
+AWLENReg_d[4]                                                                                                                     Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4]                                     SLE      D        In      -         6.664 f     -         
+============================================================================================================================================================================================
+Total path delay (propagation time + setup) of 6.664 is 2.659(39.9%) logic and 4.005(60.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                          Status     Reason     
+------------------------------------------------------------------------------------
+DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12     Mapped     No database
+====================================================================================
+
+Process took 0h:00m:14s realtime, 0h:00m:14s cputime
+# Mon Feb 24 14:17:18 2025
+
+###########################################################]

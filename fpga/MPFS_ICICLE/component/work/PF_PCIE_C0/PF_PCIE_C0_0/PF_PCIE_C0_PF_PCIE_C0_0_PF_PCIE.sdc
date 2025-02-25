@@ -1,0 +1,7 @@
+set_component PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE
+# Microchip Technology Inc.
+# Date: 2025-Feb-24 13:48:46
+#
+
+set_false_path -to [ get_pins { PCIE_1/INTERRUPT[0] PCIE_1/INTERRUPT[1] PCIE_1/INTERRUPT[2] PCIE_1/INTERRUPT[3] PCIE_1/INTERRUPT[4] PCIE_1/INTERRUPT[5] PCIE_1/INTERRUPT[6] PCIE_1/INTERRUPT[7] PCIE_1/WAKEREQ PCIE_1/MPERST_N } ]
+set_false_path -from [ get_pins { PCIE_1/TL_CLK } ]

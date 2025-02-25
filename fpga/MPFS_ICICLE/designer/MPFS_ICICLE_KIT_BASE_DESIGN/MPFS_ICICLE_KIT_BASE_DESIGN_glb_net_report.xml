@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
+<text>Date: Mon Feb 24 14:30:54 2025
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>(1297, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
+ <cell>7096</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
+ <cell>(1301, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_Y</cell>
+ <cell>3554</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0</cell>
+ <cell>(1296, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0_Y</cell>
+ <cell>2472</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_GB0</cell>
+ <cell>(1310, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_gbs_1</cell>
+ <cell>1910</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>(1309, 162)</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
+ <cell>1112</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_GB0</cell>
+ <cell>(1315, 163)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_gbs_1</cell>
+ <cell>777</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>(1298, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_Y</cell>
+ <cell>260</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>(1303, 163)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
+ <cell>243</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_GB0</cell>
+ <cell>(1309, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_gbs_1</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8/U0</cell>
+ <cell>(1300, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8/U0_Y</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0</cell>
+ <cell>(1303, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_Y</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0</cell>
+ <cell>(1308, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0_Y</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_GB0</cell>
+ <cell>(1313, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_gbs_1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>REF_CLK_50MHz</cell>
+ <cell>W12</cell>
+ <cell>HSIO92PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0</cell>
+ <cell>REF_CLK_50MHz_ibuf/U_IOPAD:Y</cell>
+ <cell>(1812, 379)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0</cell>
+ <cell>REF_CLK_50MHz_ibuf/YIN</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep[0]_GB_DEMOTE:Q</cell>
+ <cell>(1303, 259)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep[0]_GB_DEMOTE_net</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset:Q</cell>
+ <cell>(1297, 259)</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset:Q</cell>
+ <cell>(1296, 259)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_GB0</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset:Q</cell>
+ <cell>(1296, 259)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160:CLK</cell>
+ <cell>(656, 2)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_RCOSC_160MHZ_CLK_DIV</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0:DIV_CLK</cell>
+ <cell>(2466, 239)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0_CLK_125</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_12</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_GB0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_4</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_4</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_GB0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_8</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3</cell>
+ <cell>(732, 377)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_GB0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0_clkint_12</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> CCC Location </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>REF_CLK_50MHz</cell>
+ <cell>W12</cell>
+ <cell>HSIO92PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0</cell>
+ <cell>REF_CLK_50MHz_ibuf/U_IOPAD:Y</cell>
+ <cell>(1812, 379)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:REF_CLK_0</cell>
+ <cell>(732, 377)</cell>
+ <cell>REF_CLK_50MHz_ibuf/YIN</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Local Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Global Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+ <cell> </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>(1297, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
+ <cell>7096</cell>
+ <cell>1</cell>
+ <cell>(729, 258)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(729, 285)</cell>
+ <cell>681</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(729, 312)</cell>
+ <cell>1915</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(729, 339)</cell>
+ <cell>3101</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(729, 366)</cell>
+ <cell>1381</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
+ <cell>(1301, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_Y</cell>
+ <cell>3554</cell>
+ <cell>1</cell>
+ <cell>(723, 13)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(723, 148)</cell>
+ <cell>296</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(723, 178)</cell>
+ <cell>574</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(729, 148)</cell>
+ <cell>764</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(729, 178)</cell>
+ <cell>1409</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(729, 205)</cell>
+ <cell>405</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(729, 232)</cell>
+ <cell>104</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(729, 259)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0</cell>
+ <cell>(1296, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0_Y</cell>
+ <cell>2472</cell>
+ <cell>1</cell>
+ <cell>(726, 285)</cell>
+ <cell>39</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(726, 312)</cell>
+ <cell>339</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(726, 339)</cell>
+ <cell>1492</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(726, 366)</cell>
+ <cell>602</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_GB0</cell>
+ <cell>(1310, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_gbs_1</cell>
+ <cell>1910</cell>
+ <cell>1</cell>
+ <cell>(1886, 260)</cell>
+ <cell>188</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1886, 287)</cell>
+ <cell>1190</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1886, 314)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1892, 233)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(1892, 260)</cell>
+ <cell>138</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(1892, 287)</cell>
+ <cell>375</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>(1309, 162)</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
+ <cell>1112</cell>
+ <cell>1</cell>
+ <cell>(1887, 258)</cell>
+ <cell>176</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1887, 285)</cell>
+ <cell>577</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1893, 258)</cell>
+ <cell>138</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1893, 285)</cell>
+ <cell>221</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_GB0</cell>
+ <cell>(1315, 163)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_gbs_1</cell>
+ <cell>777</cell>
+ <cell>1</cell>
+ <cell>(1888, 286)</cell>
+ <cell>610</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1888, 313)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1894, 286)</cell>
+ <cell>149</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>(1298, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_Y</cell>
+ <cell>260</cell>
+ <cell>1</cell>
+ <cell>(727, 260)</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(727, 287)</cell>
+ <cell>221</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(727, 314)</cell>
+ <cell>31</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>(1303, 163)</cell>
+ <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
+ <cell>243</cell>
+ <cell>1</cell>
+ <cell>(730, 286)</cell>
+ <cell>221</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(730, 313)</cell>
+ <cell>22</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_GB0</cell>
+ <cell>(1309, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_gbs_1</cell>
+ <cell>12</cell>
+ <cell> </cell>
+ <cell>(1888, 258)</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8/U0</cell>
+ <cell>(1300, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8/U0_Y</cell>
+ <cell>1</cell>
+ <cell> </cell>
+ <cell>(726, 286)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0</cell>
+ <cell>(1303, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_Y</cell>
+ <cell>1</cell>
+ <cell> </cell>
+ <cell>(731, 366)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0</cell>
+ <cell>(1308, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0_Y</cell>
+ <cell>1</cell>
+ <cell> </cell>
+ <cell>(1890, 231)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_GB0</cell>
+ <cell>(1313, 163)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_gbs_1</cell>
+ <cell>1</cell>
+ <cell> </cell>
+ <cell>(1894, 232)</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Clock Signals Summary</name>
+<table>
+<header>
+</header>
+<row>
+ <cell>The number of clock signals through  H-Chip Global resources</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>The number of clock signals through     Row Global resources</cell>
+ <cell>21</cell>
+</row>
+<row>
+ <cell>The number of clock signals through  Sector Global resources</cell>
+ <cell>79</cell>
+</row>
+<row>
+ <cell>The number of clock signals through Cluster Global resources</cell>
+ <cell>1558</cell>
+</row>
+</table>
+<text></text>
+</section>
+</doc>

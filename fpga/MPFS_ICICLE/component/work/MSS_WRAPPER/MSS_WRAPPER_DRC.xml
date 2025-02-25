@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>MSS_WRAPPER</header>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin ICICLE_MSS:MAC_0_TSU_TIMER_CNT_M2F[93:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_WRAPPER/pins/ICICLE_MSS:MAC_0_TSU_TIMER_CNT_M2F</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin ICICLE_MSS:MAC_1_TSU_TIMER_CNT_M2F[93:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_WRAPPER/pins/ICICLE_MSS:MAC_1_TSU_TIMER_CNT_M2F</crossprobe>
+  </drc>
+</drcreport>

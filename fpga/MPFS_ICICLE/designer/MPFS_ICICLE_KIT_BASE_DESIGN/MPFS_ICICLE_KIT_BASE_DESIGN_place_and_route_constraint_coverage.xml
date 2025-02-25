@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2024.1.0.3</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Mon Feb 24 14:27:52 2025 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>MPFS_ICICLE_KIT_BASE_DESIGN</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS250T_ES</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCVG484</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.0185 - 1.0815 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        28085</cell>
+ <cell>            1</cell>
+ <cell>        28086</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         9679</cell>
+ <cell>            0</cell>
+ <cell>         9679</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        37764</cell>
+ <cell>           13</cell>
+ <cell>        37777</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        28085</cell>
+ <cell>            1</cell>
+ <cell>        28086</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         9679</cell>
+ <cell>            0</cell>
+ <cell>         9679</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        37764</cell>
+ <cell>           13</cell>
+ <cell>        37777</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        15382</cell>
+ <cell>            0</cell>
+ <cell>        15382</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         6892</cell>
+ <cell>            0</cell>
+ <cell>         6892</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        22274</cell>
+ <cell>            0</cell>
+ <cell>        22274</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        15382</cell>
+ <cell>            0</cell>
+ <cell>        15382</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         6892</cell>
+ <cell>            0</cell>
+ <cell>         6892</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        22274</cell>
+ <cell>            0</cell>
+ <cell>        22274</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         4935</cell>
+ <cell>            0</cell>
+ <cell>         4935</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         2136</cell>
+ <cell>            0</cell>
+ <cell>         2136</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         7071</cell>
+ <cell>            0</cell>
+ <cell>         7071</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         4935</cell>
+ <cell>            0</cell>
+ <cell>         4935</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         2136</cell>
+ <cell>            0</cell>
+ <cell>         2136</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         7071</cell>
+ <cell>            0</cell>
+ <cell>         7071</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         7768</cell>
+ <cell>            1</cell>
+ <cell>         7769</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          651</cell>
+ <cell>            0</cell>
+ <cell>          651</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         8419</cell>
+ <cell>           13</cell>
+ <cell>         8432</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         7768</cell>
+ <cell>            1</cell>
+ <cell>         7769</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          651</cell>
+ <cell>            0</cell>
+ <cell>          651</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         8419</cell>
+ <cell>           13</cell>
+ <cell>         8432</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>COREI2C_C0_SCL</item>
+ <item>COREI2C_C0_SDA</item>
+ <item>COREUART_RX</item>
+ <item>RPi_ID_SC</item>
+ <item>RPi_ID_SD</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>COREI2C_C0_SCL</item>
+ <item>COREI2C_C0_SDA</item>
+ <item>COREUART_RX</item>
+ <item>RPi_ID_SC</item>
+ <item>RPi_ID_SD</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>COREI2C_C0_SCL</item>
+ <item>COREI2C_C0_SDA</item>
+ <item>COREUART_TX</item>
+ <item>LED0</item>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>RPi_ID_SC</item>
+ <item>RPi_ID_SD</item>
+ <item>SDIO_SW_SEL0</item>
+ <item>SDIO_SW_SEL1</item>
+ <item>mBUS_PWM</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>COREI2C_C0_SCL</item>
+ <item>COREI2C_C0_SDA</item>
+ <item>COREUART_TX</item>
+ <item>LED0</item>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>RPi_ID_SC</item>
+ <item>RPi_ID_SD</item>
+ <item>SDIO_SW_SEL0</item>
+ <item>SDIO_SW_SEL1</item>
+ <item>mBUS_PWM</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C0_0/CoreUARTapb_C0_0/uUART/make_RX/samples[2]:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C0_0/CoreUARTapb_C0_0/uUART/make_RX/samples[2]:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>osc_rc160mhz</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS:QSPI_CLK_M2F</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS:QSPI_CLK_M2F</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REF_CLK_50MHz</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REF_CLK_PAD_P</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

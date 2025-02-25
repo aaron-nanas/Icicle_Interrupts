@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:47:51 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  GLITCHLESS_MUX
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX_0/GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_syn_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_pre_comps.v
+

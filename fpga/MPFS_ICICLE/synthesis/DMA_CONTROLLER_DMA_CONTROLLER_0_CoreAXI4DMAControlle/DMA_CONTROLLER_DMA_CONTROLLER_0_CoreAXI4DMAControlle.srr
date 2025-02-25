@@ -1,0 +1,578 @@
+# Mon Feb 24 14:16:54 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: D:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: AARON
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 202MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Mapping Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":228:0:228:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.wrCacheSelDMAArbiter because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.wrCacheSelDMAArbiter. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":268:31:268:51|Removing user instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.un1_wrCacheSelDMAArbiter because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.un1_wrCacheSelDMAArbiter. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":313:20:313:50|Removing user instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.strDscrptr_wrTranQueue15 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.intDscrptrNum_rdTranQueue15. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.chain_wrTranQueue1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.chain_rdTranQueue1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":268:20:268:51|Removing user instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.strDscrptr_wrTranQueue05 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.intDscrptrNum_rdTranQueue04. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.dataValid_wrTranQueue1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.dataValid_rdTranQueue1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.intDscrptrNum_wrTranQueue1[1:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.intDscrptrNum_rdTranQueue1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.dataValid_wrTranQueue0 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.dataValid_rdTranQueue0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.numOfBytes_wrTranQueue0[23:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.numOfBytes_rdTranQueue0[23:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptr_wrTranQueue0 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptr_rdTranQueue0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.intDscrptrNum_wrTranQueue0[1:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.intDscrptrNum_rdTranQueue0[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptr_wrTranQueue1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptr_rdTranQueue1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptrNxt_wrTranQueue0 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptrNxt_rdTranQueue0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptrAddr_wrTranQueue0[31:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptrAddr_rdTranQueue0[31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.priLvl_wrTranQueue1[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.priLvl_rdTranQueue1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptrAddr_wrTranQueue1[31:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptrAddr_rdTranQueue1[31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.priLvl_wrTranQueue0[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.priLvl_rdTranQueue0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.extDscrptrNxt_wrTranQueue1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.extDscrptrNxt_rdTranQueue1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.chain_wrTranQueue0 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.chain_rdTranQueue0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.numOfBytes_wrTranQueue1[23:0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.numOfBytes_rdTranQueue1[23:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF135 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_tran_ctrl.v":907:0:907:5|RAM FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.numOfBytesInRdReg[10:0] is 2 words by 11 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+
+Encoding state machine FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_bufferDescriptors.currRdState[21:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000001
+   0000000000000000000010 -> 0000000000000000000010
+   0000000000000000000100 -> 0000000000000000000100
+   0000000000000000001000 -> 0000000000000000001000
+   0000000000000000010000 -> 0000000000000000010000
+   0000000000000000100000 -> 0000000000000000100000
+   0000000000000001000000 -> 0000000000000001000000
+   0000000000000010000000 -> 0000000000000010000000
+   0000000000000100000000 -> 0000000000000100000000
+   0000000000001000000000 -> 0000000000001000000000
+   0000000000010000000000 -> 0000000000010000000000
+   0000000000100000000000 -> 0000000000100000000000
+   0000000001000000000000 -> 0000000001000000000000
+   0000000010000000000000 -> 0000000010000000000000
+   0000000100000000000000 -> 0000000100000000000000
+   0000001000000000000000 -> 0000001000000000000000
+   0000010000000000000000 -> 0000010000000000000000
+   0000100000000000000000 -> 0000100000000000000000
+   0001000000000000000000 -> 0001000000000000000000
+   0010000000000000000000 -> 0010000000000000000000
+   0100000000000000000000 -> 0100000000000000000000
+   1000000000000000000000 -> 1000000000000000000000
+Encoding state machine FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.currStateRd[8:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   0000000000001 -> 000000001
+   0000000000010 -> 000000010
+   0000000000100 -> 000000100
+   0000000001000 -> 000001000
+   0000000010000 -> 000010000
+   0000000100000 -> 000100000
+   0000001000000 -> 001000000
+   0000010000000 -> 010000000
+   0000100000000 -> 100000000
+Encoding state machine FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.currStateWr[10:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   0000000000001 -> 00000000001
+   0000000000010 -> 00000000010
+   0000000000100 -> 00000000100
+   0000000001000 -> 00000001000
+   0000000010000 -> 00000010000
+   0000000100000 -> 00000100000
+   0000001000000 -> 00001000000
+   0000010000000 -> 00010000000
+   0000100000000 -> 00100000000
+   0001000000000 -> 01000000000
+   0010000000000 -> 10000000000
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1314:40:1314:73|Found 24 by 24 bit equality operator ('==') FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.rdAddrReg_d19 (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+@N: MF135 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_tran_ctrl.v":907:0:907:5|RAM FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.numOfBytesInRdReg[10:0] is 2 words by 11 bits.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.nxtDscrptrNumAddr_WrTranQueue1[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.nxtDscrptrNumAddr_rdTranQueue1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":290:0:290:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.nxtDscrptrNumAddr_WrTranQueue1[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.nxtDscrptrNumAddr_rdTranQueue1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.nxtDscrptrNumAddr_WrTranQueue0[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.nxtDscrptrNumAddr_rdTranQueue0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_queue.v":245:0:245:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranQueue_inst.nxtDscrptrNumAddr_WrTranQueue0[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.nxtDscrptrNumAddr_rdTranQueue0[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_roundRobinArbiterWAck_4s_1_2(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_roundRobinArbiterWAck_4s_1_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[4:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_dscrptrSrcMux_Z2(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dscrptr_src_mux.v":340:0:340:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.dscrptrSrcMux_inst.dscrptrNValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.dscrptrSrcMux_inst.currState[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_roundRobinArbiterWAck_3s_1_2(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_roundRobinArbiterWAck_3s_1_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_extDscrptrFetchFSM_Z3(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_ext_dscrptr_fetch_fsm.v":473:0:473:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.extDscrptrFetchFSM_inst.strDcrptrReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.extDscrptrFetchFSM_inst.currState[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_ext_dscrptr_fetch_fsm.v":457:0:457:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.extDscrptrFetchFSM_inst.extClrAckReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.extDscrptrFetchFSM_inst.currState[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAArbiter_Z4(verilog))
+original code -> new code
+   000 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intStatusMux_2s_1_2(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_status_mux.v":97:0:97:5|There are no possible illegal states for state machine currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intStatusMux_2s_1_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[13:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intErrorCtrl_Z5(verilog))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":832:32:832:133|Found 24 by 24 bit equality operator ('==') clrExtDscrptrDataValidReg_d9 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intErrorCtrl_Z5(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":911:32:911:131|Found 24 by 24 bit equality operator ('==') clrRdTranQueue100 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intErrorCtrl_Z5(verilog))
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":634:0:634:5|Removing sequential instance currState[11] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intErrorCtrl_Z5(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":634:0:634:5|Removing sequential instance currState[12] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intErrorCtrl_Z5(verilog)) because it does not drive other instances.
+Encoding state machine currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_rdTranCtrl_Z6(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_rd_tran_ctrl.v":528:0:528:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.extRdyCheckReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_rd_tran_ctrl.v":645:0:645:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.extDataValidNSetReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.currState[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_rd_tran_ctrl.v":515:0:515:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.rdErrorReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.currState[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_rd_tran_ctrl.v":502:0:502:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.rdDoneReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranCtrl_inst.currState[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_transAck_2s_24s_11s_0s_1_2_4_1(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_trans_ack.v":271:48:271:149|Found 24 by 24 bit equality operator ('==') fetchIntDscrptrReg_d18 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_transAck_2s_24s_11s_0s_1_2_4_1(verilog))
+Encoding state machine currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_wrTranCtrl_Z7(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":474:0:474:5|Sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.strWrDoneReg is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":487:0:487:5|Sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.strWrErrorReg is reduced to a combinational gate by constant propagation.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":448:0:448:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.wrDoneReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.currState[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":461:0:461:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.wrErrorReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.currState[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":202:0:202:5|Removing sequential instance currState[1] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_wrTranCtrl_Z7(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_wr_tran_ctrl.v":202:0:202:5|Removing sequential instance currState[7] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_wrTranCtrl_Z7(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 270MB peak: 270MB)
+
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":634:0:634:5|Removing sequential instance DMATranCtrl.intErrorCtrl_inst.currState[13] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":529:0:529:5|Removing sequential instance DMATranCtrl.intErrorCtrl_inst.strDscrptr_intStatusMuxReg (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 277MB peak: 277MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":577:0:577:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrDataValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[5] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[4] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[3] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[2] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[20] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[19] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[18] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[17] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[16] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[15] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[14] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[13] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[12] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[11] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[10] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[9] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[8] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[7] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[6] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[31] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[30] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[29] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[28] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[27] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[26] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[25] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[24] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[23] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[22] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[21] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":592:0:592:5|Removing sequential instance DMATranCtrl.intErrorCtrl_inst.clrStrDscrptrAddr[0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_ext_dscrptr_fetch_fsm.v":377:0:377:5|Removing sequential instance extDscrptrFetchFSM_inst.dataValidReg (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 278MB peak: 278MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 278MB peak: 279MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 278MB peak: 279MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 278MB peak: 279MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 279MB peak: 279MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 293MB peak: 293MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:06s		    -1.42ns		2018 /      1446
+   2		0h:00m:06s		    -1.42ns		1983 /      1446
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_trans_ack.v":234:49:234:62|Replicating instance DMATranCtrl.transAck_inst.fetchIntDscrptrReg_d_1_sqmuxa_1_i (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":322:0:322:5|Replicating instance DMATranCtrl.intErrorCtrl_inst.rdCache1Sel (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 24 loads 2 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":307:0:307:5|Replicating instance DMATranCtrl.intErrorCtrl_inst.wrCache1Sel (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 18 loads 1 time to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":322:0:322:5|Replicating instance DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 20 loads 2 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_ext_dscrptr_cache.v":115:16:115:53|Replicating instance DMAArbiter_inst.DSCRPTR_CACHE.un1_wrEn (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 194 loads 3 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":700:8:700:11|Replicating instance DMATranCtrl.intErrorCtrl_inst.clrExtDscrptrDataValidReg_d (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 99 loads 3 times to improve timing.
+Timing driven replication report
+Added 5 Registers via timing driven replication
+Added 7 LUTs via timing driven replication
+
+   3		0h:00m:07s		    -0.62ns		2019 /      1451
+   4		0h:00m:07s		    -0.62ns		2020 /      1451
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_ext_dscrptr_cache.v":115:16:115:53|Replicating instance DMAArbiter_inst.DSCRPTR_CACHE.un1_wrEn_fast (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 47 loads 3 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_ext_dscrptr_cache.v":115:16:115:53|Replicating instance DMAArbiter_inst.DSCRPTR_CACHE.un1_wrEn_rep1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 47 loads 3 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_ext_dscrptr_cache.v":115:16:115:53|Replicating instance DMAArbiter_inst.DSCRPTR_CACHE.un1_wrEn_rep2 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 50 loads 3 times to improve timing.
+@N: FX271 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_ext_dscrptr_cache.v":115:16:115:53|Replicating instance DMAArbiter_inst.DSCRPTR_CACHE.un1_wrEn (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog)) with 50 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 12 LUTs via timing driven replication
+
+
+   5		0h:00m:07s		    -0.73ns		2028 /      1451
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 294MB peak: 294MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 294MB peak: 295MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Feb 24 14:17:02 2025
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.089
+
+                                                                                Requested     Estimated     Requested     Estimated               Clock                              Clock           
+Starting Clock                                                                  Frequency     Frequency     Period        Period        Slack     Type                               Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              125.0 MHz     126.4 MHz     8.000         7.911         0.089     generated (from REF_CLK_50MHz)     FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      NA            20.000        NA            NA        generated (from REF_CLK_50MHz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV           85.2 MHz      NA            11.737        NA            NA        generated (from osc_rc160mhz)      default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK     125.0 MHz     NA            8.000         NA            NA        declared                           default_clkgroup
+REF_CLK_50MHz                                                                   50.0 MHz      NA            20.000        NA            NA        declared                           default_clkgroup
+REF_CLK_PAD_P                                                                   100.0 MHz     NA            10.000        NA            NA        declared                           default_clkgroup
+osc_rc160mhz                                                                    170.4 MHz     NA            5.869         NA            NA        declared                           default_clkgroup
+=====================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  8.000       0.089  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                  Starting                                                                                                                  Arrival          
+Instance                                                                                                                          Reference                                                              Type     Pin     Net                               Time        Slack
+                                                                                                                                  Clock                                                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       rdCache1Sel                       0.257       0.089
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_fast     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_1683_fast                       0.257       0.349
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.wrCache1Sel_fast         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       wrCache1Sel                       0.257       0.418
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.numOfBytesInRdRegrff_0                     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       numOfBytesInRdRegro_0             0.237       0.688
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_intController.genblk1\.INT_0_FIFO.unitCnt[0]                         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[20]                           0.257       0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.numOfBytesInRdRegrff_1                     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       numOfBytesInRdRegro_1             0.257       0.824
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_1683_rep1                       0.257       0.836
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_intController.genblk1\.INT_0_FIFO.unitCnt[2]                         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[22]                           0.237       0.891
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_intController.genblk1\.INT_0_FIFO.unitCnt[1]                         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp[25]                           0.237       0.966
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.dscrptrSrcMux_inst.currState[3]                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ldExtDscrptrAck_DscrptrSrcMux     0.237       0.967
+=============================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                         Starting                                                                                                                      Required          
+Instance                                                                                                                 Reference                                                              Type     Pin     Net                                   Time         Slack
+                                                                                                                         Clock                                                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt[1]        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_1177_i                              8.000        0.089
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt[0]        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       clrRdTranQueue_6_sqmuxa_RNIKBGJIT     8.000        0.403
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.FPA.intDscrptrNum[0]          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.FPA.intDscrptrNum[1]          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.genblk1\.PRI_0.maskReg[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.genblk1\.PRI_0.maskReg[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.genblk1\.PRI_0.maskReg[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.genblk1\.PRI_0.maskReg[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.FPA.priLvl[0]                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      reqEn[0]                              7.850        0.795
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.FPA.tranDataAvail             CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       reqEn[0]                              8.000        0.920
+=========================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      7.911
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.089
+
+    Number of logic level(s):                21
+    Starting point:                          FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt[1] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast                         SLE      Q        Out     0.257     0.257 r     -         
+rdCache1Sel                                                                                                                                       Net      -        -       1.376     -           170       
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.numOfBytes[0]                             CFG3     B        In      -         1.633 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.numOfBytes[0]                             CFG3     Y        Out     0.103     1.737 r     -         
+numOfBytes_RdTranQueue[0]                                                                                                                         Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue100_0_I_1                  ARI1     D        In      -         2.382 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue100_0_I_1                  ARI1     FCO      Out     0.581     2.962 f     -         
+clrRdTranQueue100_0_data_tmp[0]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIOQD3B2           ARI1     FCI      In      -         2.962 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIOQD3B2           ARI1     FCO      Out     0.009     2.972 f     -         
+clrRdTranQueue100_0_data_tmp[1]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIL539H3           ARI1     FCI      In      -         2.972 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIL539H3           ARI1     FCO      Out     0.009     2.981 f     -         
+clrRdTranQueue100_0_data_tmp[2]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIUSOEN4           ARI1     FCI      In      -         2.981 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIUSOEN4           ARI1     FCO      Out     0.009     2.991 f     -         
+clrRdTranQueue100_0_data_tmp[3]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIJ0FKT5           ARI1     FCI      In      -         2.991 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNIJ0FKT5           ARI1     FCO      Out     0.009     3.000 f     -         
+clrRdTranQueue100_0_data_tmp[4]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNI2H4MS6           ARI1     FCI      In      -         3.000 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_rep_rep1_RNI2H4MS6           ARI1     FCO      Out     0.009     3.010 f     -         
+clrRdTranQueue100_0_data_tmp[5]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNIHMDMC7               ARI1     FCI      In      -         3.010 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNIHMDMC7               ARI1     FCO      Out     0.009     3.019 f     -         
+clrRdTranQueue100_0_data_tmp[6]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI62NMS7               ARI1     FCI      In      -         3.019 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI62NMS7               ARI1     FCO      Out     0.009     3.028 f     -         
+clrRdTranQueue100_0_data_tmp[7]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI1K0NC8               ARI1     FCI      In      -         3.028 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI1K0NC8               ARI1     FCO      Out     0.009     3.038 f     -         
+clrRdTranQueue100_0_data_tmp[8]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI2CANS8               ARI1     FCI      In      -         3.038 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI2CANS8               ARI1     FCO      Out     0.009     3.047 f     -         
+clrRdTranQueue100_0_data_tmp[9]                                                                                                                   Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNIEHMNC9               ARI1     FCI      In      -         3.047 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNIEHMNC9               ARI1     FCO      Out     0.009     3.057 f     -         
+clrRdTranQueue100_0_data_tmp[10]                                                                                                                  Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI0T2OS9               ARI1     FCI      In      -         3.057 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdCache1Sel_fast_RNI0T2OS9               ARI1     FCO      Out     0.009     3.066 f     -         
+clrRdTranQueue100_0_data_tmp[11]                                                                                                                  Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdDoneAck_DMARdTranCtrl_1_sqmuxa_1       CFG4     D        In      -         3.731 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.rdDoneAck_DMARdTranCtrl_1_sqmuxa_1       CFG4     Y        Out     0.274     4.004 r     -         
+rdDoneAck_DMARdTranCtrl_1_sqmuxa_1                                                                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_6_sqmuxa                  CFG2     A        In      -         4.143 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_6_sqmuxa                  CFG2     Y        Out     0.060     4.203 r     -         
+clrRdTranQueue_6_sqmuxa                                                                                                                           Net      -        -       0.683     -           5         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_6_sqmuxa_RNITFU202        CFG4     C        In      -         4.887 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_6_sqmuxa_RNITFU202        CFG4     Y        Out     0.156     5.043 f     -         
+g0_0_3                                                                                                                                            Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_5_sqmuxa_RNI1CJA83        CFG4     D        In      -         5.189 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrRdTranQueue_5_sqmuxa_RNI1CJA83        CFG4     Y        Out     0.274     5.462 r     -         
+clrRdTranQueue[0]                                                                                                                                 Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNI1TOVL6[1]                       CFG4     C        In      -         6.127 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNI1TOVL6[1]                       CFG4     Y        Out     0.175     6.302 r     -         
+reqCnt_1_sqmuxa                                                                                                                                   Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.un1_clrRdTranQueue_4_0_0_tz_RNIO1NQKC     CFG4     B        In      -         6.441 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.un1_clrRdTranQueue_4_0_0_tz_RNIO1NQKC     CFG4     Y        Out     0.098     6.539 r     -         
+un1_N_3_mux_0_i                                                                                                                                   Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNO_0[1]                           CFG4     C        In      -         7.184 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNO_0[1]                           CFG4     Y        Out     0.175     7.359 r     -         
+N_6_i_1                                                                                                                                           Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNO[1]                             CFG4     D        In      -         7.498 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt_RNO[1]                             CFG4     Y        Out     0.274     7.772 r     -         
+N_1177_i                                                                                                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.rdTranQueue_inst.reqCnt[1]                                 SLE      D        In      -         7.911 r     -         
+============================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.911 is 2.528(32.0%) logic and 5.383(68.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/anana/documents/jpl/interrupts/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                     Status     Reason     
+-------------------------------------------------------------------------------
+DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle     Mapped     No database
+===============================================================================
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+# Mon Feb 24 14:17:03 2025
+
+###########################################################]

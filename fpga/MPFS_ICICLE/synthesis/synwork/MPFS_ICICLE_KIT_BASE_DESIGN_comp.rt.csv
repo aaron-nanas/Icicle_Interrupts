@@ -1,0 +1,9 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, COREAXI4INTERCONNECT_Z64,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   250 MB,     2 MB,     2 MB,     0 MB,     0 MB
+work, caxi4interconnect_SlvProtocolConverter_Z46,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   265 MB,     3 MB,     3 MB,     0 MB,     0 MB
+work, caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   312 MB,    16 MB,     0 MB,     3 MB,    12 MB
+work, caxi4interconnect_SlvDataWidthConverter_Z44,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   312 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z40,0h:00m:05s,0h:00m:05s,-,0h:00m:00s,   312 MB,    11 MB,     9 MB,     0 MB,     2 MB
+work, caxi4interconnect_Axi4CrossBar_Z24,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   312 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, caxi4interconnect_MstrDataWidthConv_Z15,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   312 MB,     2 MB,     2 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z14,0h:00m:06s,0h:00m:06s,-,0h:00m:00s,   312 MB,     5 MB,     5 MB,     0 MB,     0 MB

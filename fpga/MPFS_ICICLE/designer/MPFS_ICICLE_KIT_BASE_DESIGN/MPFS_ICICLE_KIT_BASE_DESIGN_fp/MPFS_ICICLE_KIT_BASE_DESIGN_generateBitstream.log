@@ -1,0 +1,16 @@
+Software Version: 2024.1.0.3
+Opened 'C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
+PDB file 'C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.pdb' has been loaded successfully.
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 97EC;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: aee355e728bed157183d65b414803ca9422e59d42b06365e61ddf1ed5ec41d74
+Fabric component bitstream digest: 994f3c665fb2b8c553d184bfeb79549db8f1367800ee27129b0b63b9031af046
+sNVM component bitstream digest: c2ba8bf256d4ab47a91e8525eeb9a872920d3391ef1bbfb8ba412108246f72ad
+EOB component bitstream digest: 2a9c60fc3f4c0b7728e8b19a257e4cfb0abed49d2a6b9576c83add5446d8c31f
+Entire bitstream digest: eb5983512745274876e0236b2d0869923b8ee7b1d45b5db52168dd4f9f050f13
+Finished: Mon Feb 24 14:35:53 2025 (Elapsed time 00:00:53)
+
+Project saved.
+Project closed.

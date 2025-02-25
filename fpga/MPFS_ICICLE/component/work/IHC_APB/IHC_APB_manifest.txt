@@ -1,0 +1,29 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:49:37 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  IHC_APB
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/IHC_APB/IHC_APB.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

@@ -1,0 +1,80 @@
+
+fsm_encoding {56144014433} onehot
+
+fsm_state_encoding {56144014433} IDLE {00000001}
+
+fsm_state_encoding {56144014433} EXT_FETCH_WAIT {00000010}
+
+fsm_state_encoding {56144014433} EXT_FETCH_STORE {00000100}
+
+fsm_state_encoding {56144014433} EXT_VALID_CHECK {00001000}
+
+fsm_state_encoding {56144014433} EXT_CLR_VALID_WAIT {00010000}
+
+fsm_state_encoding {56144014433} EXT_CLR_VALID {00100000}
+
+fsm_state_encoding {56144014433} STR_FETCH_WAIT {01000000}
+
+fsm_state_encoding {56144014433} STR_FETCH_STORE {10000000}
+
+fsm_registers {56144014433} {currState[7]}  {currState[6]}  {currState[5]}  {currState[4]}  {currState[3]}  {currState[2]}  {currState[1]}  {currState[0]} 
+
+fsm_encoding {145185118521} sequential
+
+fsm_state_encoding {145185118521} IDLE {00}
+
+fsm_state_encoding {145185118521} NO_DAT {01}
+
+fsm_state_encoding {145185118521} TWO_DAT {10}
+
+fsm_state_encoding {145185118521} ONE_DAT {11}
+
+fsm_registers {145185118521} {currState[1]}  {currState[0]} 
+
+fsm_encoding {145185118522} sequential
+
+fsm_state_encoding {145185118522} IDLE {00}
+
+fsm_state_encoding {145185118522} NO_DAT {01}
+
+fsm_state_encoding {145185118522} TWO_DAT {10}
+
+fsm_state_encoding {145185118522} ONE_DAT {11}
+
+fsm_registers {145185118522} {currState[1]}  {currState[0]} 
+
+fsm_encoding {145185118523} sequential
+
+fsm_state_encoding {145185118523} IDLE {00}
+
+fsm_state_encoding {145185118523} NO_DAT {01}
+
+fsm_state_encoding {145185118523} TWO_DAT {10}
+
+fsm_state_encoding {145185118523} ONE_DAT {11}
+
+fsm_registers {145185118523} {currState[1]}  {currState[0]} 
+
+fsm_encoding {145185118524} sequential
+
+fsm_state_encoding {145185118524} IDLE {00}
+
+fsm_state_encoding {145185118524} NO_DAT {01}
+
+fsm_state_encoding {145185118524} TWO_DAT {10}
+
+fsm_state_encoding {145185118524} ONE_DAT {11}
+
+fsm_registers {145185118524} {currState[1]}  {currState[0]} 
+
+fsm_encoding {145185118524} sequential
+
+fsm_state_encoding {145185118524} IDLE {00}
+
+fsm_state_encoding {145185118524} NO_DAT {01}
+
+fsm_state_encoding {145185118524} TWO_DAT {10}
+
+fsm_state_encoding {145185118524} ONE_DAT {11}
+
+fsm_registers {145185118524} {currState[1]}  {currState[0]} 

@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:47:52 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  INIT_MONITOR
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/INIT_MONITOR/INIT_MONITOR.v
+

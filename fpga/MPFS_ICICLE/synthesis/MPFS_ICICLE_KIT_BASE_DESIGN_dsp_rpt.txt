@@ -1,0 +1,81 @@
+
+#####  START OF DSP REPORT FOR COMPILE POINT: DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: caxi4interconnect_SlaveConvertor_Z50  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: caxi4interconnect_SlaveConvertor_Z50  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z40  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z40  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z58  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z58  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z64  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: COREAXI4INTERCONNECT_Z64  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: MPFS_ICICLE_KIT_BASE_DESIGN  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: MPFS_ICICLE_KIT_BASE_DESIGN  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: caxi4interconnect_MasterConvertor_Z19  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: caxi4interconnect_MasterConvertor_Z19  #####
+
+
+#####  START OF DSP REPORT FOR COMPILE POINT: IHC_SUBSYSTEM  #####
+
+SNo     Instantiated     Instance_Name     User_Attribute     MACC_Structure     MACC_Name     Primitive_Type     DOTP     P_REG(EN/ARST/SRST)     A_REG(EN/ARST/SRST)     B_REG(EN/ARST/SRST)     C_REG(EN/ARST/SRST)     D_REG(EN/ARST/SRST)     SUB_REG(EN/ARST/SRST)     B2_REG(EN/ARST/SRST)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=================================================================================================================================================================================================================================================================================================
+
+#####  END OF DSP REPORT FOR COMPILE POINT: IHC_SUBSYSTEM  #####
+

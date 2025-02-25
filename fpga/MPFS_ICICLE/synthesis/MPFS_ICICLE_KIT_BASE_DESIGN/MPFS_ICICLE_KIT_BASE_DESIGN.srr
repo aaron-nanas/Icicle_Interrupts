@@ -1,0 +1,400 @@
+# Mon Feb 24 14:16:52 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: D:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: AARON
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 202MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|Found compile point of type hard on View view:work.caxi4interconnect_MasterConvertor_Z19(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z50(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z40(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z58(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z64(verilog) 
+@N: MF104 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 416MB peak: 416MB)
+
+
+Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 422MB peak: 422MB)
+
+
+Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 422MB peak: 423MB)
+
+
+Start creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 422MB peak: 423MB)
+
+
+Finished creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 422MB peak: 423MB)
+
+
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 435MB peak: 435MB)
+
+
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 435MB peak: 436MB)
+
+
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 417MB peak: 436MB)
+
+
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 417MB peak: 436MB)
+
+
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 414MB peak: 436MB)
+
+
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 414MB peak: 436MB)
+
+
+Start creating ILM for FPGA IHC_SUBSYSTEM (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 402MB peak: 436MB)
+
+
+Finished creating ILM for FPGA IHC_SUBSYSTEM (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 403MB peak: 436MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 403MB peak: 436MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 403MB peak: 436MB)
+
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s(verilog) (flattening)
+
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) with 16 words by 4 bits.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 5 words by 5 bits.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 16 words by 1 bit.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) with 29 words by 5 bits.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) with 29 words by 5 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 410MB peak: 436MB)
+
+Encoding state machine U_DMAController.extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo_ctrl.v":98:0:98:5|Found counter in view:work.caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_MPFS_ICICLE_KIT_BASE_DESIGN(verilog) instance rdptr[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo_ctrl.v":98:0:98:5|Found counter in view:work.caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_MPFS_ICICLE_KIT_BASE_DESIGN(verilog) instance wrptr[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1666:4:1666:9|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.rdbeat_cnt[8:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1398:10:1398:15|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk2\.ren_sc8 (in view: work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog))
+Encoding state machine lnk_m_cs[19:0] (in view: work.G5_APBLINK_MASTER_Z62(verilog))
+original code -> new code
+   000000 -> 00000000000000000001
+   000001 -> 00000000000000000010
+   000010 -> 00000000000000000100
+   000011 -> 00000000000000001000
+   000100 -> 00000000000000010000
+   000101 -> 00000000000000100000
+   000110 -> 00000000000001000000
+   000111 -> 00000000000010000000
+   001000 -> 00000000000100000000
+   001001 -> 00000000001000000000
+   001010 -> 00000000010000000000
+   001011 -> 00000000100000000000
+   001100 -> 00000001000000000000
+   001101 -> 00000010000000000000
+   001110 -> 00000100000000000000
+   001111 -> 00001000000000000000
+   010000 -> 00010000000000000000
+   010001 -> 00100000000000000000
+   010010 -> 01000000000000000000
+   010011 -> 10000000000000000000
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[1] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[2] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[3] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[4] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[5] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[6] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[7] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[8] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[9] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[12] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[13] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[14] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[15] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[16] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[17] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[18] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[19] (in view view:work.G5_APBLINK_MASTER_Z62(verilog)) because its output is a constant.
+@W: MO129 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[11] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":134:0:134:5|Removing sequential instance lnk_m_cs[0] (in view: work.G5_APBLINK_MASTER_Z62(verilog)) because it does not drive other instances.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":73:0:73:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance period_cnt[31:0] 
+@N: MO231 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance prescale_cnt[31:0] 
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":85:16:85:44|Found 32 by 32 bit equality operator ('==') un1_prescale_reg (in view: work.corepwm_timebase_32s_0s(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":73:12:73:116|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_pwm_posedge_reg (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":79:17:79:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
+@N: MF179 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting factoring (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 391MB peak: 436MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 400MB peak: 436MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:32s; Memory used current: 382MB peak: 436MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:35s; Memory used current: 383MB peak: 436MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:38s; Memory used current: 383MB peak: 436MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:39s; Memory used current: 383MB peak: 436MB)
+
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.CORE_I2C_C0_0_WRAPPER_1.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\anana\documents\jpl\interrupts\icicle-kit-reference-design-master\mpfs_icicle\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.RPi_ID_I2C.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:42s; Memory used current: 384MB peak: 436MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:43s; Memory used current: 430MB peak: 436MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:44s		     2.18ns		2680 /      2057
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:48s; Memory used current: 431MB peak: 436MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:49s; Memory used current: 434MB peak: 436MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                            Status     Reason     
+------------------------------------------------------
+MPFS_ICICLE_KIT_BASE_DESIGN     Mapped     No database
+======================================================
+
+Process took 0h:00m:50s realtime, 0h:00m:50s cputime
+# Mon Feb 24 14:17:42 2025
+
+###########################################################]

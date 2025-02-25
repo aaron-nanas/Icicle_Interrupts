@@ -1,0 +1,16 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:48:27 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  MSS_LSRAM
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/PF_TPSRAM_AHB_AXI_0/MSS_LSRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/MSS_LSRAM/MSS_LSRAM.v
+

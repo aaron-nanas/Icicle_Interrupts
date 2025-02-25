@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:49:07 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  COREI2C_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/core/corei2c.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/COREI2C_C0/COREI2C_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/test/user/i2c_spk.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/test/user/tb_user_corei2c.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/COREI2C_C0/COREI2C_C0_0/coreparameters.v
+

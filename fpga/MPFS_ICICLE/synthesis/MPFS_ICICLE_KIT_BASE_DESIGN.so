@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>MPFS_ICICLE_KIT_BASE_DESIGN</design>
+	<target_verilog>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm</target_verilog>
+</SynplifyOutput>

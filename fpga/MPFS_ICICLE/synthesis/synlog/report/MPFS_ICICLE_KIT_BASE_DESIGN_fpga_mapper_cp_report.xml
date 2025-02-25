@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about all compile points from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="4" name="Compile Points Summary">
+<row>
+<data>Name</data>
+<data>Status</data>
+<data>Reason</data>
+<data>Real Time</data>
+<data>CPU Time</data>
+</row>
+<row>
+<data>
+<value>DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAControlle.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:08s</data>
+<data>0h:00m:08s</data>
+</row>
+<row>
+<data>
+<value>DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:14s</data>
+<data>0h:00m:14s</data>
+</row>
+<row>
+<data>
+<value>caxi4interconnect_SlaveConvertor_Z50</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\caxi4interconnect_SlaveConvertor_Z50\caxi4interconnect_SlaveConvertor_Z50.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:25s</data>
+<data>0h:00m:25s</data>
+</row>
+<row>
+<data>
+<value>COREAXI4INTERCONNECT_Z40</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z40\COREAXI4INTERCONNECT_Z40.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:44s</data>
+<data>0h:00m:44s</data>
+</row>
+<row>
+<data>
+<value>COREAXI4INTERCONNECT_Z58</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z58\COREAXI4INTERCONNECT_Z58.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:18s</data>
+<data>0h:00m:18s</data>
+</row>
+<row>
+<data>
+<value>COREAXI4INTERCONNECT_Z64</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z64\COREAXI4INTERCONNECT_Z64.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:18s</data>
+<data>0h:00m:18s</data>
+</row>
+<row>
+<data>
+<value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:49s</data>
+<data>0h:00m:50s</data>
+</row>
+<row>
+<data>
+<value>caxi4interconnect_MasterConvertor_Z19</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\caxi4interconnect_MasterConvertor_Z19\caxi4interconnect_MasterConvertor_Z19.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:05s</data>
+<data>0h:00m:06s</data>
+</row>
+<row>
+<data>
+<value>IHC_SUBSYSTEM</value>
+<report_link name="Report">
+<data>C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+<data>0h:00m:09s</data>
+<data>0h:00m:09s</data>
+</row>
+</report_table>

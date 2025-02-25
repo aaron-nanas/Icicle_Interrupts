@@ -1,0 +1,36 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Feb 24 13:49:13 2025
+Project   :  C:\Users\anana\Documents\JPL\Interrupts\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  CoreUARTapb_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Rx_async.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Tx_async.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUART.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/wave_vlog_amba.do
+
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/anana/Documents/JPL/Interrupts/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v
+
